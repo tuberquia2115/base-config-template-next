@@ -1,0 +1,12 @@
+# Ignore artifacts:
+
+# Docs
+# ignore all readme
+**/*.md
+
+# next.js
+**/dist
+**/.next
+**/.git
+**/node_modules
+ 

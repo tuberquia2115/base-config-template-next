@@ -1,0 +1,24 @@
+{
+  "extends": "./tsconfig.json",
+  "include": [
+    // 👇️ add all the directories and files
+    // that you want to lint here
+    "app",
+    "components",
+    "icons",
+    "lib",
+    "types",
+    "hooks",
+    "utils",
+    "providers",
+    "layouts",
+    "translations",
+    "metadata",
+    // add all files in which you see
+    // the "parserOptions.project" error
+    "next-env.d.ts",
+    "postcss.config.js",
+    "./tailwind.config.js",
+    "./*"
+  ]
+}
